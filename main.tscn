@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgjcpektt4ndl"]
+
+[ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://room-001.tscn" id="1_c1uvj"]
+[ext_resource type="PackedScene" uid="uid://d4jd07lkj11hf" path="res://player.tscn" id="1_tcfox"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Room 001" parent="." instance=ExtResource("1_c1uvj")]
+
+[node name="Player" parent="Room 001" instance=ExtResource("1_tcfox")]
