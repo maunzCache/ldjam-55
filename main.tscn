@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgjcpektt4ndl"]
+[gd_scene load_steps=3 format=3 uid="uid://dgjcpektt4ndl"]
 
-[ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://room-001.tscn" id="1_c1uvj"]
+[ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://rooms/tableRoom/tableroom.tscn" id="1_c1uvj"]
+[ext_resource type="PackedScene" uid="uid://dwd8s02uct0qi" path="res://rooms/portraitRoom/portraitRoom.tscn" id="2_loox3"]
 
-[node name="Main" type="Node2D"]
+[node name="main" type="Node2D"]
 
-[node name="Room 001" parent="." instance=ExtResource("1_c1uvj")]
-position = Vector2(512, 384)
+[node name="tableroom" parent="." instance=ExtResource("1_c1uvj")]
+
+[node name="portraitroom" parent="." instance=ExtResource("2_loox3")]

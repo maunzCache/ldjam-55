@@ -14,7 +14,6 @@ config/name="Ldjam-55"
 config/version="0.1-alpha"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
 
 [display]
 
