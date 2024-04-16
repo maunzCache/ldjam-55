@@ -1,15 +1,33 @@
-[gd_scene load_steps=5 format=3 uid="uid://cdqp2w2j0gxxo"]
+[gd_scene load_steps=7 format=3 uid="uid://cdqp2w2j0gxxo"]
 
 [ext_resource type="Texture2D" uid="uid://dn8mkfrt4nho5" path="res://rooms/tableRoom/background.png" id="1_wcde1"]
 [ext_resource type="Texture2D" uid="uid://dx4ww25yx8xk1" path="res://items/png/table.png" id="2_ppp2d"]
 [ext_resource type="Script" path="res://scripts/actions/clickable.gd" id="3_d7df7"]
 [ext_resource type="Texture2D" uid="uid://dgo4w6s7iyqis" path="res://items/png/books.png" id="4_vajro"]
+[ext_resource type="Texture2D" uid="uid://dneggosoyhb7e" path="res://items/png/changeTheScene.png" id="5_5mhhp"]
+[ext_resource type="Script" path="res://scripts/actions/switch_to_portrait.gd" id="6_hmc0w"]
 
 [node name="tableroom" type="Node2D"]
 position = Vector2(513, 387)
 
 [node name="Background" type="Sprite2D" parent="."]
 texture = ExtResource("1_wcde1")
+
+[node name="TextureButton" type="TextureButton" parent="Background"]
+editor_description = "Tableroom"
+anchors_preset = -1
+anchor_left = 0.919
+anchor_top = 0.464
+anchor_right = 0.919
+anchor_bottom = 0.464
+offset_left = -562.056
+offset_top = -434.352
+offset_right = -462.056
+offset_bottom = -334.352
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("5_5mhhp")
+script = ExtResource("6_hmc0w")
 
 [node name="Tisch" type="Sprite2D" parent="."]
 position = Vector2(50, 287.875)

@@ -1,15 +1,31 @@
-[gd_scene load_steps=5 format=3 uid="uid://dwd8s02uct0qi"]
+[gd_scene load_steps=7 format=3 uid="uid://dwd8s02uct0qi"]
 
 [ext_resource type="Texture2D" uid="uid://di84l3tefihwb" path="res://rooms/portraitRoom/King.png" id="1_f3dv5"]
 [ext_resource type="Texture2D" uid="uid://elr45rotd31b" path="res://items/png/portrait.png" id="2_as5v7"]
 [ext_resource type="Texture2D" uid="uid://dr0t2yctdpd2f" path="res://items/png/portraitCat.png" id="3_2lgf3"]
 [ext_resource type="Script" path="res://scripts/actions/clickable.gd" id="3_i7xgb"]
+[ext_resource type="Texture2D" uid="uid://dneggosoyhb7e" path="res://items/png/changeTheScene.png" id="5_p6tw8"]
+[ext_resource type="Script" path="res://scripts/actions/switch_to_table.gd" id="6_pt1cf"]
 
 [node name="portraitroom" type="Node2D"]
 
 [node name="background" type="Sprite2D" parent="."]
 position = Vector2(510, 390)
 texture = ExtResource("1_f3dv5")
+
+[node name="TextureButton" type="TextureButton" parent="background"]
+editor_description = "Portraitroom"
+anchors_preset = -1
+anchor_left = 0.854
+anchor_top = 0.664
+anchor_right = 0.854
+anchor_bottom = 0.664
+offset_left = -561.496
+offset_top = -433.952
+offset_right = -461.496
+offset_bottom = -333.952
+texture_normal = ExtResource("5_p6tw8")
+script = ExtResource("6_pt1cf")
 
 [node name="dog" type="Sprite2D" parent="."]
 editor_description = "Die katze finde ich doof! Ich bin ein toller Hund!"
