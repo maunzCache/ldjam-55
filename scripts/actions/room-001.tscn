@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://cdqp2w2j0gxxo"]
+
+[ext_resource type="Texture2D" uid="uid://dn8mkfrt4nho5" path="res://room_001_bg.png" id="1_wcde1"]
+[ext_resource type="Script" path="res://Klickbar.gd" id="1_yjsq0"]
+[ext_resource type="Texture2D" uid="uid://dgo4w6s7iyqis" path="res://books.png" id="2_b6dpv"]
+[ext_resource type="Texture2D" uid="uid://dx4ww25yx8xk1" path="res://table.png" id="2_r75wh"]
+[ext_resource type="Texture2D" uid="uid://elr45rotd31b" path="res://portrait.png" id="5_jyw67"]
+
+[node name="Room 001" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("1_wcde1")
+
+[node name="Tisch" type="Sprite2D" parent="."]
+position = Vector2(32, 280)
+texture = ExtResource("2_r75wh")
+script = ExtResource("1_yjsq0")
+
+[node name="Bücher" type="Sprite2D" parent="."]
+position = Vector2(24, 200)
+texture = ExtResource("2_b6dpv")
+script = ExtResource("1_yjsq0")
+
+[node name="Portrait" type="Sprite2D" parent="."]
+position = Vector2(0, -112)
+texture = ExtResource("5_jyw67")
+script = ExtResource("1_yjsq0")
