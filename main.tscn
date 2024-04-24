@@ -1,8 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgjcpektt4ndl"]
+[gd_scene load_steps=4 format=3 uid="uid://dgjcpektt4ndl"]
 
 [ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://room-001.tscn" id="1_c1uvj"]
+[ext_resource type="PackedScene" uid="uid://2k1tw8lqki72" path="res://shelf_room.tscn" id="2_fm5cm"]
+[ext_resource type="PackedScene" uid="uid://c1cqmknaiwxuy" path="res://symbol_room.tscn" id="3_vb5rk"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Room 001" parent="." instance=ExtResource("1_c1uvj")]
+position = Vector2(512, 384)
+
+[node name="Shelf room" parent="." instance=ExtResource("2_fm5cm")]
+position = Vector2(512, 384)
+
+[node name="Symbol room" parent="." instance=ExtResource("3_vb5rk")]
+visible = false
 position = Vector2(512, 384)
