@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cdqp2w2j0gxxo"]
 
-[ext_resource type="Texture2D" uid="uid://dn8mkfrt4nho5" path="res://rooms/tableRoom/background.png" id="1_wcde1"]
+[ext_resource type="Texture2D" uid="uid://dn8mkfrt4nho5" path="res://rooms/tableRoom/background.png" id="1_pjc6r"]
 [ext_resource type="Texture2D" uid="uid://dx4ww25yx8xk1" path="res://items/png/table.png" id="2_ppp2d"]
 [ext_resource type="Script" path="res://scripts/actions/clickable.gd" id="3_d7df7"]
 [ext_resource type="Texture2D" uid="uid://dgo4w6s7iyqis" path="res://items/png/books.png" id="4_vajro"]
@@ -11,7 +11,7 @@
 position = Vector2(513, 387)
 
 [node name="Background" type="Sprite2D" parent="."]
-texture = ExtResource("1_wcde1")
+texture = ExtResource("1_pjc6r")
 
 [node name="TextureButton" type="TextureButton" parent="Background"]
 editor_description = "Tableroom"

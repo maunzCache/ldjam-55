@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnn730f6ew8m2"
-path="res://.godot/imported/shelf_room_bg.png-c786cc4ccffe455ea16c5e35f602d420.ctex"
+uid="uid://d2ra08w3yh81c"
+path="res://.godot/imported/symbol_room_bg.png-65e5c3c3492b84d6bbbe32f25b46ecad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://shelf_room_bg.png"
-dest_files=["res://.godot/imported/shelf_room_bg.png-c786cc4ccffe455ea16c5e35f602d420.ctex"]
+source_file="res://items/png/symbol_room_bg.png"
+dest_files=["res://.godot/imported/symbol_room_bg.png-65e5c3c3492b84d6bbbe32f25b46ecad.ctex"]
 
 [params]
 

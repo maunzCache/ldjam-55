@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0jsyjxqtxpst"
-path="res://.godot/imported/potions.png-162a9b7c39c5b8cf12a6de16faaa923c.ctex"
+uid="uid://bldr6mmmby4c3"
+path="res://.godot/imported/shelf.png-f59ace574b74f56134068af937effece.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://potions.png"
-dest_files=["res://.godot/imported/potions.png-162a9b7c39c5b8cf12a6de16faaa923c.ctex"]
+source_file="res://items/png/shelf.png"
+dest_files=["res://.godot/imported/shelf.png-f59ace574b74f56134068af937effece.ctex"]
 
 [params]
 

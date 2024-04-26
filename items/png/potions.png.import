@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://elr45rotd31b"
-path="res://.godot/imported/portrait.png-912f932bf13f6430ba2b3a7db7a6b287.ctex"
+uid="uid://b0jsyjxqtxpst"
+path="res://.godot/imported/potions.png-948a635ebe6cc28199fb2beead066fc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://portrait.png"
-dest_files=["res://.godot/imported/portrait.png-912f932bf13f6430ba2b3a7db7a6b287.ctex"]
+source_file="res://items/png/potions.png"
+dest_files=["res://.godot/imported/potions.png-948a635ebe6cc28199fb2beead066fc7.ctex"]
 
 [params]
 

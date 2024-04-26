@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://c1cqmknaiwxuy"]
+
+[ext_resource type="Texture2D" uid="uid://d2ra08w3yh81c" path="res://items/png/symbol_room_bg.png" id="1_1pphf"]
+[ext_resource type="Texture2D" uid="uid://bluanf2e3afky" path="res://items/png/symbol_01.png" id="2_oh8dk"]
+[ext_resource type="Script" path="res://scripts/actions/Klickbar.gd" id="3_ocmj4"]
+[ext_resource type="Texture2D" uid="uid://bmklmcqgvpsfq" path="res://items/png/symbol_02.png" id="4_ovrtc"]
+[ext_resource type="Texture2D" uid="uid://r6ih8ubtxpai" path="res://items/png/symbol_03.png" id="5_v18hg"]
+
+[node name="Symbol room" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+texture = ExtResource("1_1pphf")
+
+[node name="Symbol Alpha" type="Sprite2D" parent="."]
+position = Vector2(161, 49)
+texture = ExtResource("2_oh8dk")
+script = ExtResource("3_ocmj4")
+
+[node name="Symbol Beta" type="Sprite2D" parent="."]
+position = Vector2(158, -289)
+texture = ExtResource("4_ovrtc")
+script = ExtResource("3_ocmj4")
+
+[node name="Symbol Ceta" type="Sprite2D" parent="."]
+position = Vector2(-147, -172)
+texture = ExtResource("5_v18hg")
+script = ExtResource("3_ocmj4")
