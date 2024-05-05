@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn8mkfrt4nho5"
-path="res://.godot/imported/background.png-c7c76081987e09b82170f4babd14b449.ctex"
+uid="uid://di84l3tefihwb"
+path="res://.godot/imported/King.png-783dc9ea7866ac585f969065bc1611a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rooms/tableRoom/background.png"
-dest_files=["res://.godot/imported/background.png-c7c76081987e09b82170f4babd14b449.ctex"]
+source_file="res://items/png/King.png"
+dest_files=["res://.godot/imported/King.png-783dc9ea7866ac585f969065bc1611a7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://di84l3tefihwb"
-path="res://.godot/imported/King.png-2b41b4123442d34228ec003df8acc6c2.ctex"
+uid="uid://dn8mkfrt4nho5"
+path="res://.godot/imported/background.png-1b984abfe40c59453ee2ec686d7ebd40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://rooms/portraitRoom/King.png"
-dest_files=["res://.godot/imported/King.png-2b41b4123442d34228ec003df8acc6c2.ctex"]
+source_file="res://items/png/background.png"
+dest_files=["res://.godot/imported/background.png-1b984abfe40c59453ee2ec686d7ebd40.ctex"]
 
 [params]
 

@@ -1,10 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://dgjcpektt4ndl"]
+[gd_scene load_steps=6 format=3 uid="uid://dgjcpektt4ndl"]
 
-[ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://rooms/tableRoom/tableroom.tscn" id="1_c1uvj"]
-[ext_resource type="PackedScene" uid="uid://dwd8s02uct0qi" path="res://rooms/portraitRoom/portraitRoom.tscn" id="2_loox3"]
+[ext_resource type="PackedScene" uid="uid://cdqp2w2j0gxxo" path="res://scenes/table_room.tscn" id="1_c1uvj"]
+[ext_resource type="PackedScene" uid="uid://dwd8s02uct0qi" path="res://scenes/portrait_room.tscn" id="2_loox3"]
+[ext_resource type="PackedScene" uid="uid://2k1tw8lqki72" path="res://scenes/shelf_room.tscn" id="3_tn7aq"]
+[ext_resource type="PackedScene" uid="uid://c1cqmknaiwxuy" path="res://scenes/symbol_room.tscn" id="4_bnyyp"]
+[ext_resource type="PackedScene" uid="uid://cece4xgsjr8i" path="res://scenes/hud.tscn" id="5_bo0oq"]
 
 [node name="main" type="Node2D"]
+position = Vector2(512, 384)
 
-[node name="portraitroom" parent="." instance=ExtResource("2_loox3")]
+[node name="Portrait room" parent="." instance=ExtResource("2_loox3")]
 
-[node name="tableroom" parent="." instance=ExtResource("1_c1uvj")]
+[node name="Table room" parent="." instance=ExtResource("1_c1uvj")]
+position = Vector2(1024, 0)
+
+[node name="Shelf room" parent="." instance=ExtResource("3_tn7aq")]
+position = Vector2(2048, 0)
+
+[node name="Symbol room" parent="." instance=ExtResource("4_bnyyp")]
+position = Vector2(3072, -2)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("5_bo0oq")]
